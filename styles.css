@@ -1,0 +1,68 @@
+/*sets the background with a height specification*/
+.bg1 {
+
+    background-image: url("https://images.unsplash.com/photo-1506878206813-92402b8ded23?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=209d432b2134a7cf519a1c4ff4ecb515");
+    background-size: cover;
+    height: 800px;
+}
+
+/*sets the background of the very bottom section of the page*/
+.bg2 {
+    background-color: #4b4949 ;
+    height: 100px;
+}
+
+/*pads text so it moves down vertically, also ensures we only have top padding so it can move all the way
+to the right or to left if screen is adjusted*/
+.ct {
+    padding-top: 375px;
+}
+
+/*makes the background of the text a bit darker so it contrasts well with the background*/
+.shadow {
+    text-shadow: 0px 0px 10px #000;
+}
+
+/*sets font size and spacing for paragraph elements*/
+p {
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+/*aligns text to the right side*/
+.right {
+    text-align: right;
+}
+/*allows images to be more flexible when the size of the screen changes*/
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/*sets the color of the background to a brownish yellow color*/
+body {
+    background-color:   #f8af65  ;
+}
+
+/*centers h1 text*/
+h1
+{
+    text-align: center;
+}
+
+/*sets the background of the h1 element to be black with some opacity*/
+h1 span {
+    background-color: black;
+    opacity: .7;
+}
+
+/*used to underline text*/
+.underline {
+    text-decoration: underline;
+}
+
+
+
+
+

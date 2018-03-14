@@ -1,0 +1,97 @@
+<!--This is a profile page I did for FreeCodeCamp-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--title of the page tab -->
+    <title>Fernandez</title>
+    <!--links the custom style sheet-->
+     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--body color is in the head because on code pen it wouldn't lead fromm CSS style sheet-->
+    <style>
+      body { background-color: #f8af65; }
+    </style>
+</head>
+<body>
+<!--creates a nav bar which moves with the screen, also has a drop down menu which has different sections of the page-->
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Fernandez</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-inverse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="active"><a href="#">Home</a> </li>
+                    <li><a href="#WP">Web Projects</a> </li>
+                    <li><a href="#TS">Other Projects</a> </li>
+                    <li><a href="#C">Contact</a> </li>
+                </ul>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--This is the big title of the web page along with three buttons, at this point non of them actually link to anything-->
+<div class="bg1 container-fluid">
+    <div class="shadow ct container-fluid text-center">
+        <h1> <font color="white"><span>Jorge Mario Fernandez</span></font></h1>
+        <a href="https://twitter.com/MarioDevs" class="btn btn-info" role="button" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="btn btn-success" role="button" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com/freecodecamp/" class="btn btn-primary" role="button" target="_blank">Facebook</a>
+    </div>
+</div>
+
+<br>
+<!--bootstrap row and col allow me to split the div element in 3, it also makes that section responsive to screen changes-->
+<div class="container-fluid  row text-center">
+
+    <div class="row">
+        <div class="col-sm-4" id="WP">
+            <img class="img-rounded"  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=6d5f72185efb15cfd4e816ecd1a6c966" alt="cant display image!">
+            <p class="underline">Web Projects</p>
+            <p>Click <a href="#">here</a> for a collection of web pages which I have worked on in the past.</p>
+        </div>
+
+        <div class="col-sm-4" id="TS">
+            <img class="img-responsive center-block img-rounded" src="https://images.unsplash.com/photo-1485856407642-7f9ba0268b51?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=b27ede7021bcf9eff1ad9157fd96b9ec" alt="cant display image">
+            <p class="underline">Other Technical Skills</p>
+            <p>Click <a href="#">here</a> to see some Java and Python projects I have done.</p>
+        </div>
+
+        <div class="col-sm-4" id="C">
+            <img  class="img-responsive center-block img-rounded" src="https://images.unsplash.com/photo-1505767297988-6d5da4a1730c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=d78a593bee76dc5328018dad6c631c0a" alt="cant display image">
+            <p class="underline">Contact Me</p>
+            <p>Name: Jorge Mario Fernandez</p>
+            <p>Email: email@gmail.com</p>
+            <p>Phone: (555) 555-5555</p>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div class="container-fluid bg2 text-center">
+
+    <h5 style="color:white; margin-top:40px">Jorge Mario Fernandez 2018</h5>
+
+
+
+
+</div>
+
+</body>
+</html>
